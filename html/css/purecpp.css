@@ -495,11 +495,28 @@ nav .contrast:hover {
     margin-bottom: 2rem;
 }
 
-.article-content h1,
-.article-content h2,
+.article-content h1 {
+    color: var(--primary);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.6rem;
+}
+
+.article-content h2 {
+    color: var(--primary);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.35rem;
+}
+
 .article-content h3 {
     color: var(--primary);
     margin: 1.5rem 0 1rem;
+    font-size: 1.15rem;
+}
+
+.article-content h4 {
+    color: var(--primary);
+    margin: 1.2rem 0 0.8rem;
+    font-size: 1.05rem;
 }
 
 .article-content p {
@@ -527,8 +544,9 @@ nav .contrast:hover {
 }
 
 .article-content code {
-    font-family: Consolas, 'Fira Code', monospace !important;
-    font-size: 0.95rem !important;
+    font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Source Code Pro', monospace !important;
+    font-size: 0.875rem !important;
+    line-height: 1.6 !important;
 }
 
 /* 用户资料弹窗样式 */
